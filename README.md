@@ -35,15 +35,15 @@ cp .env.example .env
 You must have a Mongodb.com account and AWS S3 Bucket
 Set up your  `.env`
 
- `
-DATABASE_URI=mongodb+srv://<user>:<password>@cluster0.vbxof.mongodb.net/<dbname>?retryWrites=true&w=majority
-DATABASE_URI=YOUR_MONGO_DATABASE_URI
-DATABASE_NAME=YOUR_DATABASE_NAME
-AWS_API_ID=YOUR_AWS_S3_ID
-AWS_API_KEY=YOUR_AWS_S3_KEY
-AWS_API_REGION=YOUR_AWS_API_REGION
-AWS_BUCKET_NAME=YOUR_AWS_BUCKET_NAME
-`
+ - `DATABASE_URI=mongodb+srv://<user>:<password>@cluster0.vbxof.mongodb.net/<dbname>?retryWrites=true&w=majority`
+ - `DATABASE_URI=YOUR_MONGO_DATABASE_URI`
+ - `DATABASE_NAME=YOUR_DATABASE_NAME`
+ - `AWS_API_ID=YOUR_AWS_S3_ID`
+ - `AWS_API_KEY=YOUR_AWS_S3_KEY`
+ - `AWS_API_REGION=YOUR_AWS_API_REGION`
+ - `AWS_BUCKET_NAME=YOUR_AWS_BUCKET_NAME`
+
+
 ### Step 2. Set up Strapi locally
 
 Execute
