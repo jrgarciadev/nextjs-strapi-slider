@@ -1,30 +1,29 @@
 import { DefaultTheme } from 'styled-components';
-import commonStyles from './common';
 
 const lightTheme: DefaultTheme = {
-  borderRadius: commonStyles.borderRadius,
-  fontFamily: commonStyles.fontFamily,
+  borderRadius: '0rem',
+  fontFamily: 'Open Sans',
   fontSize: {
-    xxs: commonStyles.fontSize.xxs,
-    xs: commonStyles.fontSize.xs,
-    sm: commonStyles.fontSize.sm,
-    md: commonStyles.fontSize.md,
-    lg: commonStyles.fontSize.lg,
-    xl: commonStyles.fontSize.xl,
-    xxl: commonStyles.fontSize.xxl,
+    xxs: '0.9rem',
+    xs: '1.1rem',
+    sm: '1.3rem',
+    md: '1.4rem',
+    lg: '1.8rem',
+    xl: '2.2rem',
+    xxl: '2.6rem',
   },
   breakpoints: {
-    xs: commonStyles.breakpoints.xs,
-    sm: commonStyles.breakpoints.sm,
-    md: commonStyles.breakpoints.md,
-    lg: commonStyles.breakpoints.lg,
-    xl: commonStyles.breakpoints.xl,
+    xs: '320px',
+    sm: '576px',
+    md: '768px',
+    lg: '992px',
+    xl: '1200px',
   },
   fontWeight: {
-    light: commonStyles.fontWeight.light,
-    regular: commonStyles.fontWeight.regular,
-    semibold: commonStyles.fontWeight.semibold,
-    bold: commonStyles.fontWeight.bold,
+    light: 300,
+    regular: 400,
+    semibold: 600,
+    bold: 700,
   },
   bg: {
     default: '#FFFFFF',
